@@ -7,8 +7,8 @@ class MToKM(BaseEstimator, TransformerMixin):
         pass
 
     def fit(self, x, y=None):
-    #    TODO
+        x = x*1.609344
         return self
 
     def transform(self, x):
-        return #TODO
+        return x*1.609344

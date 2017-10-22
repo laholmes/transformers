@@ -1,7 +1,7 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 
 
-class Clip(BaseEstimator, TransformerMixin):
+class Scale(BaseEstimator, TransformerMixin):
     """ Scale input vectors individually to unit norm, using sklearn """
     def __init__(self, norm='l1'):
         self.norm = norm

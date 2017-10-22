@@ -10,9 +10,7 @@ knn impute
 length  
 m to km  
 scale  
-strip currency  
-to base ten  
-vectorize text  
+strip currency 
 
 # Demo
 run jupyter notebook
@@ -25,3 +23,10 @@ and runs it through a pipeline containing some of the transformers available in 
 
 
 # test
+
+
+# dependencies
+sklearn
+numpy
+scipy
+fancyimpute

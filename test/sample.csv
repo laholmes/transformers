@@ -1,0 +1,6 @@
+City,Size,Description,Radius,Affordability,AverageIncome,Target
+Antwerp,400000,'Antwerp Description',3,8,$40000,1
+Brisbane,200000,'Brisbane Description',2,6,$37000,0
+Los Angeles,10000000,'Los Angeles Description',17,5,$48000,1
+Paris,,'Paris Description',12,4,$45000,0
+Birmingham,3000000,'Birmingham Description',8,6,$42000,0

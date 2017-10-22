@@ -1,14 +1,14 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 
 
-class ToBaseTen(BaseEstimator, TransformerMixin):
-    """ Convert number expressed in any base to base 10 """
+class Length(BaseEstimator, TransformerMixin):
+    """ Convert string column to length of value """
     def __init__(self):
         pass
 
     def fit(self, x, y=None):
-    #    TODO
+        x = len(x)
         return self
 
     def transform(self, x):
-        return #TODO
+        return len(x)
